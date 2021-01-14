@@ -1,0 +1,12 @@
+.copyr{
+    align-content: center;
+}
+.img-responsive{
+    width: 86%;
+    height: auto;
+    align-content: flex-start;
+    margin-left: 80px;
+}
+.navbar-custom {
+    border: white;
+     background-color: white !important; }

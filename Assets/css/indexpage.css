@@ -1,0 +1,106 @@
+body {
+    overflow-x: hidden;
+    font-family: "Times New Roman", "Times Roman", serif;
+    color: #000000;
+    font-size: 14px;
+    background: #ffffff;
+    text-decoration: none;
+}
+.navbar-custom {
+    border: white;
+     background-color: white !important;
+    overflow: visible; }
+
+ /* .nav {
+    float: left;
+    width: 230px;
+    min-height: 0;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 50px;
+    background-color:white;
+    text-align: left;
+
+    
+}  */
+.nav_container>h2>a{
+    
+    color: black;
+    text-decoration: none;
+    
+    
+}
+h2{
+    
+    font-size: 27px;
+    line-height: 1.1em;
+    margin-left: 12px;
+}
+
+#main_nav >ul>li>a{
+    color: black;
+    align-items: left;
+    line-height: 1;
+    
+}
+#main_nav a{
+    text-decoration: none;
+    font-size: 13px;
+}
+.item_additional_text{
+    
+    font-size: 13px;
+    color: gray;
+    margin-top: 10px;
+}
+
+/* .nav_container.main_nav>ul>li{
+    text-decoration: none;
+}
+.nav_container .main_nav>ul>li>a{
+    text-decoration: none;
+    
+}
+.item_additional_text>ul>li>p{
+    text-decoration: none;
+} */
+.linkoch>ul{
+    margin-left: 20px;
+   
+}
+
+.linkoch>ul>li{
+    display: inline-block;
+    
+}  
+.linkoch>ul>li :hover{
+    color: black;
+    
+}
+.fa-instagram:hover{
+    color: black !important;
+}
+.fa-telegram:hover{
+    color: black !important;
+}
+.fa-facebook:hover{
+    color: black !important;
+}
+.fa-linkedin:hover{
+    color: black !important;
+}
+.formbar{
+    padding-top: 8%;
+}
+.form{
+    margin-left: 10px;
+    padding-top: 20%;
+}
+.img-fluid{
+    padding-left: 6%;
+    padding-top: 10%;
+    width: 800px;
+    height: auto;
+    align-content: flex-start;
+}
