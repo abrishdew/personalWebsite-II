@@ -1,25 +1,31 @@
+
 body {
-    overflow-x: hidden;
+    
     font-family: "Times New Roman", "Times Roman", serif;
     color: #000000;
     font-size: 14px;
     background: #ffffff;
     text-decoration: none;
 }
-
-
-
 .navbar-custom {
     border: white;
      background-color: white !important;
-    overflow: visible; }
+    margin-top: 2%; }
 
+
+.nav {
+    float: left;
+    width: 230px;
+    min-height: 0;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 50px;
+    background-color:#ffffff;
+    text-align: left;
 
     
-
-
-
-
+}
 .nav_container>h2>a{
     
     color: black;
@@ -27,17 +33,17 @@ body {
     
     
 }
-
-
-
-
 h2{
     
     font-size: 27px;
     line-height: 1.1em;
     margin-left: 12px;
 }
-
+h1{
+    font-size: 10px;
+    line-height: 1.1em;
+    margin-left: 12px;
+}
 #main_nav >ul>li>a{
     color: black;
     align-items: left;
@@ -48,10 +54,6 @@ h2{
     text-decoration: none;
     font-size: 13px;
 }
-
-
-
-
 .item_additional_text{
     
     font-size: 13px;
@@ -59,25 +61,18 @@ h2{
     margin-top: 10px;
 }
 
-
-.linkoch>ul{
-    margin-left: 20px;
-   
-}
-
-.linkoch>ul>li{
+.linkh>ul>li{
     display: inline-block;
     
-}  
-.linkoch>ul>li :hover{
+}
+
+
+
+
+.linkh>ul>li :hover{
     color: black;
     
 }
-
-
-
-
-
 .fa-instagram:hover{
     color: black !important;
 }
@@ -93,17 +88,15 @@ h2{
 
 
 
-.formbar{
-    padding-top: 8%;
+
+
+
+ .image .img img {
+    height: 530px;
+    width: auto;
+    display: block;
 }
-.form{
-    margin-left: 10px;
-    padding-top: 20%;
-}
-.img-fluid{
-    padding-left: 6%;
-    padding-top: 10%;
-    width: 800px;
-    height: auto;
-    align-content: flex-start;
+.image{
+    display: table-cell;
+   
 }
