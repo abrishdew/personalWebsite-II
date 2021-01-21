@@ -60,16 +60,16 @@ h2{
 }
 
 
-.linkoch>ul{
+.linkh>ul{
     margin-left: 20px;
    
 }
 
-.linkoch>ul>li{
+.linkh>ul>li{
     display: inline-block;
     
 }  
-.linkoch>ul>li :hover{
+.linkh>ul>li :hover{
     color: black;
     
 }
